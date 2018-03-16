@@ -6,7 +6,12 @@
  * Time: 17:00
  */
 
+namespace src;
+
 class GameMain
 {
+    public function init(){
+
+    }
 
 }
