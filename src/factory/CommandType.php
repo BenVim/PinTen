@@ -9,7 +9,7 @@
 namespace src\factory;
 
 
-use LoginCommand;
+use src\command\LoginCommand;
 
 class CommandType
 {
@@ -49,11 +49,12 @@ class CommandType
     const DETAIL_UNION_KEY             = "uDetail";
     const GUILD_JOIN_STATUS_KEY        = "js";
     const GUILD_CLOSE_UI_KEY           = "gcu";
+    const ERROR_KEY                    = "error";
 
     public static function getCommandList()
     {
-        $commandList                                            = [];
-        $commandList[CommandType::LOGIN_COMMAND_KEY]            = LoginCommand::class;
+        $commandList                                 = [];
+        $commandList[CommandType::LOGIN_COMMAND_KEY] = LoginCommand::class;
         return $commandList;
     }
 }

@@ -12,4 +12,27 @@ namespace src\command;
 class Command
 {
 
+    protected function init(){
+        $this->beforeFilter();
+        $this->execute();
+        $this->afterFilter();
+        $this->destroy();
+    }
+
+    protected function beforeFilter(){
+
+    }
+
+    protected function execute(){
+
+    }
+
+    protected function afterFilter(){
+
+    }
+
+    protected function destroy(){
+
+    }
+
 }
