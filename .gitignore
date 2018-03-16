@@ -1,0 +1,14 @@
+.DS_Store
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+.idea
+/Runtime
+.vscode
+composer.lock
+swoole.log
+/Runtime/swoole.log
+/redis_.patch
+tick.log
