@@ -1,7 +1,7 @@
 {
   "autoload": {
     "files": [
-      "src/common/function.php"
+      "lib/common/function.php"
     ],
     "classmap": [
       "lib/",
