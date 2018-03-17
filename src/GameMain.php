@@ -14,4 +14,14 @@ class GameMain
 
     }
 
+    private function initData(){
+
+    }
+
+    private function loadConfigData(){
+
+    }
+
+
+
 }
